@@ -13,7 +13,7 @@ export const Blog = () => {
     if (loading || !blog) {
         return <div>
                 <Appbar/>
-                <div className="h-screen flex flex-col justify-center">
+                <div className="h-screen flex flex-col justify-center bg-rose-100">
                     <div className="flex justify-center">
                         <Spinner/>
                     </div>
