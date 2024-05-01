@@ -10,7 +10,7 @@ export const Blogs = () => {
     if (loading) {
         return <div>
             <Appbar/>
-            <div className="flex justify-center">
+            <div className="flex justify-center bg-rose-100">
                 <div>
                     <BlogSkeleton/>
                     <BlogSkeleton/>
