@@ -3,10 +3,10 @@ import { Appbar } from "./Appbar"
 import { Avatar } from "./BlogCard"
 
 export const FullBlog = ({ blog }:{ blog: Blog }) => {
-    return <div className="h-screen bg-blue-100">
+    return <div className=" h-screen bg-blue-100">
         <Appbar/>
         <div className="flex justify-center rounded-3xl border-black border-2 mt-2  bg-slate-200">
-            <div className="grid grid-cols-12 px-10 pt-200 w-full max-w-screen-xl p-12">
+            <div className="grid grid-cols-1 lg:grid-cols-12  px-10 pt-200 w-full max-w-screen-xl p-12">
                 <div className="col-span-8">
                     <div className="font-serif text-5xl font-extrabold">
                         {blog.title}
