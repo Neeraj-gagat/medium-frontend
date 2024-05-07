@@ -19,7 +19,7 @@ export const FullBlog = ({ blog }:{ blog: Blog }) => {
                     </div>
                 </div>
                 <div className="col-span-4">
-                    <div className="font-serif text-slate-600 text-lg">
+                    <div className="font-serif text-slate-700 text-lg mt-8 lg:mt-0">
                         Author
                     </div>
                     <div className="flex w-full">
