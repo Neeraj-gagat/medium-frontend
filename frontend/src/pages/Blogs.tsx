@@ -10,7 +10,7 @@ export const Blogs = () => {
     if (loading) {
         return <div>
             <Appbar/>
-            <div className="flex justify-center bg-rose-100">
+            <div className="flex justify-center bg-blue-100">
                 <div>
                     <BlogSkeleton/>
                     <BlogSkeleton/>
@@ -24,7 +24,7 @@ export const Blogs = () => {
 
     return <div>
         <Appbar/>
-        <div className="flex justify-center bg-rose-100">
+        <div className="flex justify-center bg-blue-100">
             <div>
                 {blogs.map(blog => <BlogCard 
                 id={blog.id}
